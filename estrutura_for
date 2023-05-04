@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args) {
+    for(int cont=0; cont < 10; cont++){
+      System.out.println("Oi, pela " + (cont+1) + "ª vez!");      
+    }
+
+    System.out.println("Os números de 5 a 20 são:");
+    
+    for (int i=5; i<=20; i++){
+      System.out.println(i);
+    }
+  }
+}
